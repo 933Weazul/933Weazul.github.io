@@ -79,3 +79,5 @@ dialog.lb .next{right:12px;top:50%;transform:translateY(-50%)}
 @media (max-width:420px){.brand span{display:none}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.app-card{transition:none}}
 .gallery figcaption a.light{display:inline-block;margin-left:8px;font-size:13px;font-weight:600;white-space:nowrap}
+.theme-dl{--accent:#3b6ff5; --accent2:#0e7c86; --bg:#f3f5fa; --mist:#e6ebf7}
+.c-dl .go{color:#3b6ff5}
