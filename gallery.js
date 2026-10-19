@@ -1,6 +1,6 @@
 // Tap-to-enlarge for screenshot galleries. No dependencies; links still open the full image without JS.
 (function () {
-  var links = Array.prototype.slice.call(document.querySelectorAll('.gallery a'));
+  var links = Array.prototype.slice.call(document.querySelectorAll('.gallery a.shot'));
   if (!links.length || typeof HTMLDialogElement === 'undefined') return;
   var d = document.createElement('dialog');
   d.className = 'lb';
@@ -12,7 +12,7 @@
   function show(n) {
     i = (n + links.length) % links.length;
     var a = links[i], t = a.querySelector('img');
-    img.src = a.href; img.alt = t.alt; cap.textContent = a.parentNode.querySelector('figcaption').textContent;
+    img.src = a.href; img.alt = t.alt; var c = a.parentNode.querySelector('figcaption .cap') || a.parentNode.querySelector('figcaption'); cap.textContent = c.textContent;
   }
   links.forEach(function (a, n) {
     a.addEventListener('click', function (e) { e.preventDefault(); show(n); d.showModal(); });
