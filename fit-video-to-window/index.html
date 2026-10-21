@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fit Video to Window: make a video fill the browser window</title>
+<meta name="description" content="A small Microsoft Edge extension that makes the video on a page fill the browser window, with a toolbar button, Alt+Shift+F and Esc.">
+<meta name="referrer" content="no-referrer">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="/style.css">
+<meta property="og:title" content="Fit Video to Window: make a video fill the browser window">
+<meta property="og:description" content="A small Microsoft Edge extension that makes the video on a page fill the browser window, with a toolbar button, Alt+Shift+F and Esc.">
+</head>
+<body class="theme-pc">
+<header class="top"><div class="wrap"><a class="brand" href="/"><svg viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f5b66"/><stop offset="1" stop-color="#2d6a4f"/></linearGradient></defs><rect width="32" height="32" rx="9" fill="url(#lg)"/><path d="M5 23l7-9 5 6 3-3 7 6z" fill="#e3e9e8"/><circle cx="22" cy="10" r="3" fill="#f2c94c"/></svg><span>Little Apps from Wrangell</span></a><nav><a href="/">Home</a><a href="/phone-gallery/">Phone Gallery</a><a href="/wrangell-daily/">Wrangell Daily</a><a href="/desklink/">DeskLink</a><a href="/tidewater-money/">Tidewater Money</a><a href="/phone-trackpad/">Phone Trackpad</a><a href="/#pc-tools" aria-current="page">PC tools</a></nav></div></header>
+<main>
+
+<div class="hero"><div class="wrap">
+ <div><span class="pill">Microsoft Edge extension · Works in Chrome too</span>
+ <h1>Fit Video to Window</h1>
+ <p class="lead">Full screen is too much and the little player is too small? Fit Video to Window makes the video on the page fill the browser window instead. Your tabs, address bar and taskbar stay where they are. Click the toolbar button or press Alt+Shift+F, and press Esc when you're done.</p>
+ <span class="pill">Personal project · Not publicly available</span></div>
+ <svg class="art" viewBox="0 0 480 340" role="img" aria-label="Illustration: a browser window where a video grows from a small box in the page to fill the whole window">
+<defs><linearGradient id="fvbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b2030"/><stop offset="1" stop-color="#2a1f3d"/></linearGradient>
+<linearGradient id="fvv" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7b6cf0"/><stop offset=".55" stop-color="#f0a35e"/><stop offset="1" stop-color="#0f5b66"/></linearGradient>
+<clipPath id="fvf"><rect width="480" height="340" rx="26"/></clipPath></defs>
+<g clip-path="url(#fvf)"><rect width="480" height="340" fill="url(#fvbg)"/>
+<g transform="translate(40 40)"><rect width="400" height="260" rx="12" fill="#11141c" stroke="#3a3f55" stroke-width="2"/>
+<rect width="400" height="34" rx="12" fill="#232838"/><rect y="20" width="400" height="14" fill="#232838"/>
+<circle cx="18" cy="17" r="5" fill="#f87171"/><circle cx="34" cy="17" r="5" fill="#fbbf24"/><circle cx="50" cy="17" r="5" fill="#34d399"/>
+<rect x="74" y="9" width="250" height="16" rx="8" fill="#141824"/>
+<rect x="346" y="8" width="22" height="18" rx="5" fill="#3b4060"/><rect x="356" y="4" width="18" height="10" rx="5" fill="#1a73e8"/><text x="365" y="12" font-family="system-ui,sans-serif" font-size="7" font-weight="700" fill="#fff" text-anchor="middle">ON</text>
+<rect x="0" y="34" width="400" height="226" fill="#000"/><rect x="0" y="46" width="400" height="202" fill="url(#fvv)"/>
+<rect x="24" y="60" width="150" height="86" rx="6" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="6 5" opacity=".75"/>
+<g stroke="#fff" stroke-width="4" stroke-linecap="round" fill="none" opacity=".95"><path d="M190 154l60 34M232 192l18-4-4-18"/></g>
+<path d="M186 120l26 15-26 15z" fill="#fff" opacity=".9"/>
+<rect x="14" y="232" width="372" height="4" rx="2" fill="#ffffff55"/><rect x="14" y="232" width="120" height="4" rx="2" fill="#fff"/>
+</g></g></svg>
+</div></div>
+<section><div class="wrap">
+ <h2>What it does</h2>
+ <p class="sub">It's not the browser's real full-screen mode: the video simply takes over the window, and everything goes back exactly as it was afterwards.</p>
+ <div class="features"><div class="feature"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></div><h3>Fills the window</h3><p>The video grows to the size of the browser window, with black bars where needed. Nothing is cropped.</p></div><div class="feature"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="7" width="20" height="10" rx="2"/><path d="M6 11h0M10 11h0M14 11h0M18 11h0M7 14h10"/></svg></div><h3>A button and a shortcut</h3><p>Click the toolbar button or press Alt+Shift+F to toggle. The shortcut can be changed in the browser&#x27;s extension settings.</p></div><div class="feature"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 14L4 9l5-5"/><path d="M4 9h11a5 5 0 0 1 0 10h-3"/></svg></div><h3>Esc puts it back</h3><p>Press Esc, the shortcut or the button again, and the page returns exactly as it was, scroll position included.</p></div><div class="feature"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/></svg></div><h3>Picks the right video</h3><p>The one that&#x27;s playing (the biggest if several are), or else the biggest video on screen. A small ON badge shows while it&#x27;s active.</p></div><div class="feature"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M10 8l5 3-5 3z M8 21h8"/></svg></div><h3>Keeps the player&#x27;s controls</h3><p>On YouTube the whole player is enlarged so its own buttons keep working; Video.js, JW Player, Plyr and MediaElement players too. Plain videos get the browser&#x27;s own controls.</p></div><div class="feature"><div class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></div><h3>Private</h3><p>No data is collected or sent anywhere. It needs access to all sites only because a video can be on any page.</p></div></div>
+</div></section>
+<section class="band"><div class="wrap">
+ <h2>Screenshots</h2>
+ <p class="sub">Tap a screenshot to enlarge it. Captured in headless Chromium with the extension loaded, on a demo page with a test video generated for the purpose; no real site or video is shown. The demo page is shown in dark mode; “Light mode” opens the light version.</p>
+ <div class="gallery"><figure><a class="shot" href="/fit-video-to-window/img/before.webp"><img src="/fit-video-to-window/img/before-t.webp" width="640" height="400" loading="lazy" decoding="async" alt="Before: a video inside a page, with a header, text and a sidebar around it. (Demo page and a generated test video.)"></a><figcaption><span class="cap">Before: a video inside a page, with a header, text and a sidebar around it. (Demo page and a generated test video.)</span> <a class="light" href="/fit-video-to-window/img/before-light.webp">Light mode</a></figcaption></figure><figure><a class="shot" href="/fit-video-to-window/img/fit.webp"><img src="/fit-video-to-window/img/fit-t.webp" width="640" height="400" loading="lazy" decoding="async" alt="After Alt+Shift+F or the toolbar button: the video fills the browser window, with the browser&#x27;s own controls. Esc puts the page back exactly as it was."></a><figcaption><span class="cap">After Alt+Shift+F or the toolbar button: the video fills the browser window, with the browser&#x27;s own controls. Esc puts the page back exactly as it was.</span></figcaption></figure></div>
+</div></section>
+<section><div class="wrap"><p class="note">Fit Video to Window is a personal project and isn't publicly available. It doesn't work on the browser's own pages, the add-on stores or the built-in PDF viewer, where browsers don't allow extensions. It isn't affiliated with Microsoft, Google or YouTube.</p></div></section>
+
+</main>
+<footer><div class="wrap">
+<p><strong>Independent personal projects.</strong> Not publicly available yet. There are no downloads here.</p>
+<p>Not affiliated with, sponsored by or endorsed by Alaska Airlines, the Alaska Marine Highway System, the Alaska Department of Fish and Game, the U.S. Coast Guard, the FAA, NOAA, the National Weather Service, Google (Android, Pixel, Chrome, YouTube), Samsung, Microsoft (Windows, Edge), Roku, Rocket Money, any bank, card issuer or payment app, or any other organization named on these pages. Names are used only to describe what the apps show.</p>
+<p>No cookies, no tracking, no third-party scripts. Illustrations and text are original.</p>
+</div></footer>
+<script src="/gallery.js" defer></script>
+</body>
+</html>
