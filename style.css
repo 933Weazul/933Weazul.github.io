@@ -85,3 +85,6 @@ dialog.lb .next{right:12px;top:50%;transform:translateY(-50%)}
 .c-tm .go{color:#0f6b5f}
 .theme-tm .gallery a{--frame:9/16}
 @media (max-width:640px){header.top .wrap{gap:10px} nav{overflow-x:auto;white-space:nowrap;scrollbar-width:none;gap:12px} nav::-webkit-scrollbar{display:none} nav a{font-size:13.5px}}
+.theme-pt{--accent:#4f46e5; --accent2:#0e7490; --bg:#f4f4fb; --mist:#e7e7f7}
+.c-pt .go{color:#4f46e5}
+.theme-pt .gallery a{--frame:9/16}
