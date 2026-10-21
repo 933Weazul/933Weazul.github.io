@@ -88,6 +88,9 @@ dialog.lb .next{right:12px;top:50%;transform:translateY(-50%)}
 .theme-pt{--accent:#4f46e5; --accent2:#0e7490; --bg:#f4f4fb; --mist:#e7e7f7}
 .c-pt .go{color:#4f46e5}
 .theme-pt .gallery a{--frame:9/16}
+.theme-ah{--accent:#2b4c9b; --accent2:#b7791f; --bg:#f4f6fa; --mist:#e4e9f3}
+.c-ah .go{color:#2b4c9b}
+.theme-ah .gallery a{--frame:9/16}
 .theme-pc{--accent:#3d5a99; --accent2:#7b4f9e; --bg:#f3f4f8; --mist:#e6e8f2}
 .c-pc .go{color:#3d5a99}
 .theme-pc .gallery a{--frame:16/10}
